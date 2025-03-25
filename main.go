@@ -1,7 +1,7 @@
 package main
 
 import (
-	"sql-sniffer/cmd"
+	"github.com/JacksonChan-X/sql-sniffer/cmd"
 )
 
 func main() {

@@ -5,10 +5,11 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-	"sql-sniffer/client"
-	"sql-sniffer/helper"
 	"sync"
 	"time"
+
+	"github.com/JacksonChan-X/sql-sniffer/client"
+	"github.com/JacksonChan-X/sql-sniffer/helper"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/tcpassembly"

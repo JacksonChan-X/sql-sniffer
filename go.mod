@@ -1,10 +1,9 @@
-module sql-sniffer
+module github.com/JacksonChan-X/sql-sniffer
 
 go 1.23.6
 
 require (
 	github.com/40t/go-sniffer v0.0.0-20201023123058-add66245ba50
-	github.com/go-resty/resty/v2 v2.16.5
 	github.com/go-sql-driver/mysql v1.9.1
 	github.com/google/gopacket v1.1.19
 	github.com/iancoleman/strcase v0.3.0
