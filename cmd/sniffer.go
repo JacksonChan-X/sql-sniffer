@@ -126,7 +126,7 @@ func FetchPacket(ctx context.Context, inter, port, typ string) {
 	for {
 		select {
 		case <-ctx.Done():
-			logger.Info("context done")
+			// logger.Info("context done")
 			return
 		case pkt := <-packetSource.Packets():
 			if pkt.NetworkLayer() == nil || pkt.TransportLayer() == nil ||

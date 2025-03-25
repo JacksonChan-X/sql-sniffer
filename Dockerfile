@@ -10,4 +10,4 @@ COPY . .
 
 RUN go env -w GOPROXY=https://goproxy.cn,direct
 
-RUN CGO_ENABLED=1 GOOS=linux GOARCH=amd64 CC="gcc" go build -o mysql-sniffer -tags netgo -ldflags "-extldflags '-static'"
+RUN CGO_ENABLED=1 GOOS=linux GOARCH=amd64 CC="gcc" go build -o sql-sniffer -tags netgo -ldflags "-extldflags '-static'"
